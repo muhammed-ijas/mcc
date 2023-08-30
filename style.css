@@ -1,0 +1,999 @@
+body{
+    margin: 0%;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:#ffffff ;
+    
+}
+.logoheader{
+    margin-left: 47px;
+    margin-top: 30px;
+
+}
+
+.Brandsdiv{
+    width: 133px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -24px;
+    margin-left: 195px;
+}
+
+
+
+.Brands{
+    color: hsl(0, 0%, 16%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    background-color: #ffffff;
+    height: 49px;
+    margin-left: 37px;
+    margin-top: -1px;
+    position: absolute;
+
+}
+.Brands:hover{
+    border-bottom:solid black ;
+
+}
+
+.Discoverdiv{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    margin-left: 328px;
+}
+
+
+
+.Discover{
+    color: hsl(0, 0%, 16%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    height: 82px;
+    margin-left: 6px;
+    margin-top: -46px;
+    border: none;
+    position: relative;
+    display: inline-block;
+
+}
+.arrow1{
+    margin-left: 91px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    transition: transform 0.5s;
+    
+    
+}
+
+
+
+
+
+.Discoverdropdown{
+    display: none;
+    width: 150px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-left: 6px;
+    margin-top: 0px;
+    padding: 22px 29px;
+    line-height: 25px;
+    z-index: 1;
+    position: relative;
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+    
+    
+    
+}
+.Discoverdropdown a{
+    color: black;
+     text-decoration: none;
+  display: block;
+
+}
+
+.Discover:hover .Discoverdropdown{
+    display: block;
+    
+}
+
+
+.Discoverdiv:hover .Discoverdropdown {display: block;}
+
+.Discoverdiv:hover .Discover {
+    background-color: #ffffff;
+    border-bottom: solid black;
+}
+
+
+.Discoverdiv:hover .arrow1 {transform: rotate(90deg);}
+.hide1{
+    display: block;
+}
+.Discoverdropdown a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+
+.Impactdiv{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    margin-left: 471px;
+}
+.Impact{
+    color: hsl(0, 0%, 16%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    height: 82px;
+    margin-left: -1px;
+    margin-top: -46px;
+    border: none;
+    position: relative;
+    display: inline-block;
+
+}
+.arrow2{
+    margin-left: 71px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    transition: transform 0.5s;
+    
+}
+.Impact:hover{
+    border-bottom: solid black;
+    
+}
+
+
+
+
+.Impactdropdown{
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-left: -1px;
+    margin-top: 0px;
+    padding: 22px;
+    line-height: 25px;
+    z-index: 1;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+    
+}
+.Impactdropdown a{
+    color: black;
+ 
+  text-decoration: none;
+  display: block;
+
+}
+.Impactdiv:hover .Impact{
+    background-color: #ffffff;
+    border-bottom: solid black;
+}
+.Impactdiv:hover .Impactdropdown{display: block;}
+.Impactdiv:hover .arrow2{
+    transform: rotate(90deg);
+}
+.Impactdropdown a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+.Shopdiv{
+    width: 65px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    margin-left: 580px;
+}
+.Shop{
+    color: hsl(0, 0%, 16%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    height: 82px;
+    margin-left: -1px;
+    margin-top: -46px;
+    border: none;
+    position: relative;
+    display: inline-block;
+
+}
+.arrow3{
+    margin-left: 54px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    transition: transform 0.5s;
+    
+}
+.Shop:hover{
+    border-bottom: solid black;
+    
+}
+
+
+
+
+.Shopdropdown{
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-left: -1px;
+    margin-top: 0px;
+    padding: 32px;
+    line-height: 25px;
+    z-index: 1;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+    
+}
+.Shopdropdown a{
+    color: black;
+ 
+  text-decoration: none;
+  display: block;
+
+}
+.Shopdiv:hover .Shop{
+    background-color: #ffffff;
+    border-bottom: solid black;
+}
+.Shopdiv:hover .Shopdropdown{display: block;}
+.Shopdiv:hover .arrow3{
+    transform: rotate(90deg);
+}
+.Shopdropdown a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.mainbody{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+   
+    
+}
+.slider{
+    margin-top: 57px;
+    margin-left: 0px;
+    height: 652px;
+    width: 1235px;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img{
+    
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+.images input{
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 31px;
+}
+.buttons label{
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    border: solid #000000 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.buttons label:hover{background-color: #000000;}
+
+#img1:checked~ .image1{
+    margin-left: 0;
+}
+#img2:checked~ .image2{
+    margin-left: -100%;
+}
+#img3:checked~ .image3{
+    margin-left: -200%;
+}
+#img4:checked~ .image4{
+    margin-left: -300%;
+}
+#img5:checked~ .image5{
+    margin-left: -400%;
+}
+.image1{
+    border-radius: 20px;
+}
+.image2{
+    border-radius: 20px;
+}
+.image3{
+    border-radius: 20px;
+}
+.image4{
+    border-radius: 20px;
+}
+.image5{
+    border-radius: 20px;
+}
+
+.Experi-Div{
+    background-color: #f1f1f1;
+    padding-top: 80PX;
+    
+    width: 100%;
+    height: 800px;
+}
+.Experi-Headdiv{
+    width: 300px;
+    height: fit-content;
+    background-color: #f1f1f1;
+    padding-left: 580px;
+}
+.Experi-Heading{
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Experi-Imagediv{
+    
+    height: 470px;
+    width: 550px;
+    margin-left: 693px;
+    margin-top: 120px;
+}
+
+.Experi-Image{
+    height: 466px;
+    width: 543px;
+    border-radius: 20px;
+}
+.Experi-Writediv{
+    
+    width: 339px;
+    height: 300px;
+    margin-top: -332px;
+    margin-left: 117px;
+    line-height: 39px;
+}
+.Experi-Write{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 35px;
+    
+}
+.Explorebtn{
+    border-radius: 40px;
+    width: 323px;
+    height: 40px;
+    margin-top: 30px;
+    border: solid   rgb(0, 0, 0);
+    
+    font-size: 15px;
+    font-weight: 700;
+    border-width: 2px;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Explorebtn:hover{
+    border-color: #585858;
+    color: #585858;
+}
+.Sustain-Div{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+    padding-top: 40px;
+}
+.Sustain-Headdiv{
+    margin-top: -16px;
+    margin-left: 507px;
+    height: 40px;
+    width: 400px;
+    background-color: #f1f1f1;
+}
+.Sustain-Heading{
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Sustain-Imagediv1{
+    height: 695px;
+    width: 542px;
+    margin-left: 116px;
+    margin-top: 52px;
+    background-color:#f1f1f1;
+   
+
+}
+.Sustain-Imagediv2{
+    height: 695px;
+    width: 542px;
+    margin-left: 690px;
+    margin-top: -695px;
+    background-color: #f1f1f1;
+   
+
+}
+.Sustain-Image{
+    width: 542px;
+    height: fit-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Sustain-Writediv{
+    height: 285px;
+    width: 542px;
+    background-color: #ffffff;
+    padding: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -5px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+.Sustain-write1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+}
+.Sustain-Write2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 16px;
+    margin-top: 19px;
+    font-weight: normal;
+    line-height:25px;
+}
+.learnmore1{
+    margin-top: 66px;
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.learnmore2{
+    margin-top: 47px;
+    margin-left: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: px;
+}
+.Sustain-Imagediv1:hover .learnmore1{
+    color: #494949;
+}
+.Sustain-Imagediv2:hover .learnmore2{
+    color: #494949;
+}
+
+.Limca-div{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+    padding-top: 40px;
+
+}
+.Limca-Imagediv{
+    width: 638px;
+    height: 553px;
+    background-color: #ffffff;
+    margin-top: 65px;
+    margin-left: 116px;
+    border-radius: 20px;
+   
+}
+.Limca-Writediv{
+    height: 547px;
+    width: 542px;
+    margin-left: 690px;
+    margin-top: -636px;
+    background-color: rgb(255, 255, 255);
+    padding: 65px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+
+
+}
+.Limca-Image{
+    width: 638px;
+    height: 553px;
+    border-radius: 20px;
+
+}
+.Limca-Heading{
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Limca-Writediv p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 16px;
+    margin-top: 19px;
+    font-weight: normal;
+    line-height:25px;
+    
+}
+.Limca-Button{
+    border-radius: 40px;
+    width: 323px;
+    height: 40px;
+    margin-top: 45px;
+    border: solid   rgb(0, 0, 0);
+    
+    font-size: 15px;
+    font-weight: 700;
+    border-width: 2px;
+    background-color: #ffffff;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Limca-Button:hover{
+    border-color: #585858;
+    color: #585858;
+}
+.Brandlistdiv{
+    width: 100%;
+    height: 900px;
+    background-color:#f1f1f1;
+    margin-top: -175px;
+    
+
+}
+.Brandlisthead-div{
+   
+    background-color: #f1f1f1;
+    height:35px;
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+}
+.Brandlisthead-div h1{
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    
+
+}
+.Brand-Main-div{
+    height: 543px;
+    width: 831px;
+    background-color: #f1f1f1;
+    margin-left: 258px;
+    margin-top: 39px;
+
+
+}
+.Cocacola-img-div{
+    height: 254px;
+    width:254px ;
+    background-color:#ffffff;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+    
+}
+.Sprite-img-div{
+    height: 254px;
+    width:254px ;
+    background-color: #ffffff;
+    margin-left: 287px;
+    margin-top: -254px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+.Thumsup-img-div{
+    height: 254px;
+    width:254px ;
+    background-color: #ffffff;
+    margin-left: 577px;
+    margin-top: -254px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+.Limca-img-div{
+    height: 254px;
+    width:254px ;
+    background-color: #ffffff;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+.Fanta-img-div{
+    height: 254px;
+    width:254px ;
+    background-color: #ffffff;
+    margin-top: -254px;
+    margin-left: 287px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+.Maaza-img-div{
+    height: 254px;
+    width:254px ;
+    background-color:#ffffff;
+    margin-top: -254px;
+    margin-left: 577px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c7c7c7;
+}
+
+.CocaCola-img{
+    height: 193px;
+    width: 193px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.Sprite-img{
+    height: 193px;
+    width: 193px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.Thumsup-img{
+    height: 193px;
+    width: 193px;
+    background-color:#ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.Limca-img{
+    height: 193px;
+    width: 193px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.Fanta-img{
+    height: 193px;
+    width: 193px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.Maaza-img{
+    height: 193px;
+    width: 193px;
+    background-color:#ffffff;
+    margin-top: 8px;
+    margin-left: 31px;
+}
+.view-Button{
+    height: fit-content;
+    width: 100%;
+    background-color: #f1f1f1;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    
+}
+.view-Button button{
+    border-radius: 40px;
+    width: 323px;
+    height: 40px;
+    
+    border: solid   rgb(0, 0, 0);
+    background-color: #000;
+    color: white;
+    
+    font-size: 15px;
+    font-weight: 700;
+    border-width: 2px;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.view-Button button:hover{
+    background-color: #686868;
+    border: solid   #686868;
+
+}
+.Beforelast-div{
+    width: 100%;
+    height: 1201px;
+    background-color: #f1f1f1;
+    margin-top: -179px;
+    display: flex;
+    justify-content: center;
+
+}
+.Beforelast-write{
+    height: 1196px;
+    width: 1116px;
+    background-color: #f1f1f1;
+}
+.Beforelast-write p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 16px;
+    
+    font-weight: normal;
+    line-height:25px;
+
+}
+.Footer-div{
+    width: 100%;
+    height: 608px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.Footer-Writediv{
+    height: 608px;
+    width: 1116px;
+    background-color: rgb(0, 0, 0);
+}
+.Footer-Logo{
+    width: 246px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 65px;
+}
+.Footer-button{
+    width: 190px;
+    height: 40px;
+    
+    margin-top: -42px;
+    margin-left: 926px;
+    border-radius: 40px;
+    border: solid  #ffffff;
+    background-color: #000000;
+    border-width: 2px;
+    
+   
+}
+
+.India{
+    margin-left: 60px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Location-div{
+    margin-top: -12px;
+    margin-left: 29px;
+    width: 21px;
+    height: 20px;
+   
+
+}
+.Location{
+    
+    margin-top: -36px;
+    width: 15px;
+    height: 20px;
+    
+    
+}
+.Footer-button:hover {
+    background-color: #686868;
+
+}
+.Line1{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 49px;
+}
+.Table-div{
+    height: 211px;
+    width: 665px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 53px;
+    
+}
+
+td{
+    height: 30px;
+    width: 212px;
+}
+.Firstraw{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #afafaf;
+
+
+}
+.After-first-row{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Line2{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 231px;
+}
+
+.For-logos{
+    width: 176px;
+    height: 36px;
+    margin-top: -216px;
+    margin-left: 940px;
+    background-color: rgb(0, 0, 0);
+
+}
+.Round1{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: solid  2px #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.Round2{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 45px;
+    margin-top: -36px;
+    border: solid 2px  #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+.Round3{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 90px;
+    margin-top: -36px;
+    border: solid 2px #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.Round4{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 135px;
+    margin-top: -36px;
+    border: solid 2px #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.Twitter{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+.Instagram{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+.Youtube{
+    width: 17px;
+    height: 11px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.Facebook{
+    width: 8px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+.Lastline{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 42px;
+    margin-left: 788px;
+
+}
+.Round1:hover{
+    background-color: #646464;
+}
+.Round2:hover{
+    background-color: #646464;
+}
+
+.Round3:hover{
+    background-color: #646464;
+}
+
+.Round4:hover{
+    background-color: #646464;
+}
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
